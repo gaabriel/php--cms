@@ -1,0 +1,695 @@
+*
+{
+    margin: 0px; padding: 0px;
+}
+
+a 
+{ 
+   color: white;text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: rgba(255,255,255,.8);
+}
+
+body 
+{        
+    background-color: rgba(255,120,40,1);
+    font-family: 'Open Sans', sans-serif;
+    color: white;text-align: center;
+    margin: 0px; padding: 0px;
+}
+
+form fieldset input
+{
+    background-color: rgba(50,50,50,.8);
+    color: white;font-size: 18px;
+    border: 1px solid rgba(220,220,220,.9);
+    text-align: center;
+}
+
+
+.navbar
+{
+    background-color: rgba(20,20,20,1);
+    border-bottom: 1px rgba(255,255,255,.9) solid;
+    top: 0px;width: 100%;height: 62px;display: block;
+    position:absolute
+}
+.navbar h1
+{
+    font-size: 22pt;padding-top: 13px;
+    font-family: Audiowide, cursive;
+}
+
+.cmsbar
+{
+    background-color: rgba(20,20,20,1);
+    border-bottom: 1px rgba(255,255,255,.9) solid;
+    top: 0px;width: 100%;height: 62px;display: block;  
+    position:absolute;
+}
+.cmsbar a
+{
+    padding-left: 5px;padding-right: 5px;
+}
+.cmsbar h1
+{
+    font-size: 16pt;
+    font-family: Audiowide, cursive;
+    margin-top: 0px;margin-bottom: 2px;
+}
+.cmsbar tr
+{
+    display: block;margin-left: auto;margin-right: auto;
+}
+#bartool
+{
+    font-size: 8pt;line-height:.8;text-align: right;
+    margin-bottom:0px;margin-right: 1%;
+}
+
+
+
+section#reg
+{
+    margin-top: 10px;margin-bottom: 10px;
+    width: 85%;display: block;
+    margin-left: auto;margin-right: auto;
+}
+
+
+/**************************************************************************************/
+/*************************************************************************************/
+/*************************************************************************************/
+/*********************************************************   h o m e   **************/
+#homelayout
+{
+    margin-top: 10px;margin-bottom: 10px;
+    width: 85%;display: block;
+    margin-left: auto;margin-right: auto;
+}
+#hboxes
+{
+    float: left; min-width: 238px; position: center;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 20px;background-color: rgba(0,0,0,.1);
+}
+.lilbox , .medbox
+{
+    background-color: rgba(50,160,50,1);
+    border: 1px solid rgba(220,220,220,.9);
+    text-align: center; width: 210px;
+    margin-left: auto;margin-right: auto;
+}
+.lilbox a , .medbox a
+{
+    display: block; padding: 9px 0px;
+}
+.lilbox a:hover, .medbox a:hover
+{
+    text-decoration: none; color: white;
+}
+.lilbox:hover , .medbox:hover
+{
+    background-color: rgba(50,180,50,1);
+    font-weight: bold; text-decoration: none;color: white;
+}
+.lilbox
+{
+    font-size: 10pt;
+}
+.medbox
+{
+    font-size: 10pt;
+}
+#hmid
+{
+    background-color: rgba(0,0,0,.1);
+    margin-left: auto;margin-right: auto;
+}
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+/***********************************************   account & profile   *************/
+section#setprofile
+{
+    margin-top: 15px;margin-bottom: 10px;
+    width: 95%;display: block;
+    margin-left: auto;margin-right: auto;
+}
+#setProf
+{
+    margin-left: auto;margin-right: auto;
+    background-color: rgba(40,40,40,.85);
+    border: 1px solid rgba(255,255,255,.7);
+}
+#setProf fieldset
+{
+    padding-top: 5px;padding-bottom: 0px;border: none;
+}
+#setProf1 h3
+{
+    padding-top: 7px;
+}
+#pBirth
+{
+    margin-top: 14px;
+}
+#birt
+{
+    width:180px;display: inline;
+}
+.lef
+{
+    padding-right: 2px;
+}
+#setProf1 div
+{
+    margin-top:15px; 
+}
+fieldset #setProf2
+{
+    border: 1px solid rgba(255,255,255,.7);
+    background-color:  rgba(40,40,40,.6);
+}
+#setProf2
+{
+    width:242px;margin: 0px auto;
+}
+#setProf2 h4
+{
+    padding-top: -10px;
+}
+#set-x input
+{
+    padding: 8px 105px;margin: 15px auto;
+}
+#set-x2 input
+{
+    padding: 8px 105px;margin: 4px auto 15px auto;
+}
+#set-updater-text
+{
+    padding-top: 10px;
+}
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+/********************************************************    new group    **********/
+section#newGroup
+{
+    width: 95%;display: block;
+    margin-left: auto;margin-right: auto;
+}
+#formngroup
+{
+    background-color: rgba(40,40,40,.85);
+    margin-left: auto;margin-right: auto;
+    border: 1px solid rgba(255,255,255,.7);
+}
+#formngroup fieldset
+{
+    padding: 6px 0px 0px 0px;border: none;
+}
+#ngc
+{
+    display: inline;
+}
+#formngroup fieldset h2
+{
+    margin-bottom: 5px;
+}
+#formngroup fieldset input
+{
+    margin-bottom: 10px;
+}
+#formngroup fieldset div
+{
+    margin-bottom: 5px;
+}
+#ngprocF
+{
+    padding-top: 5px;padding-bottom: 8px;
+}
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+/*****************************************************   see profile    ************/
+.goprof
+{
+    margin: 25px auto 0px auto;
+    background-color: rgba(40,40,40,.8);
+    border: 1px solid rgba(255,255,255,.7);
+    height: 80px;width: 220px;
+}
+.goprof h2
+{
+    line-height: 75px; vertical-align: middle;
+}
+/**********//**********/
+section#profilepage
+{
+    margin-top: 10px;margin-bottom: 10px;
+    width: 85%;display: block;
+    margin-left: auto;margin-right: auto;
+}
+.seeprofile
+{
+    background-color: rgba(40,40,40,.8);
+    border: 1px solid rgba(255,255,255,.7);
+    padding: 15px 5%;
+}
+#avatarprof
+{
+    margin-bottom: 7px;
+}
+#avatarprof img
+{
+    border: 2px solid rgba(255,255,255,1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.85);
+    height:200; width:200;
+}
+#mainprof h2
+{
+    color: rgba(200,200,200,.9); 
+}
+#socialprof
+{
+    margin: 1px auto -1px auto;
+    padding-top:2px;padding-bottom: 2px; 
+}
+#socf,#soct,#soci
+{
+    margin-left: 2%;margin-right: 2%;text-decoration: none;
+}
+#groupsprof h3
+{
+    font-weight: normal;font-size: 12pt;
+}
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+/******************************************************     a s k     **************/
+section#ask1
+{
+    margin-top: 10px;margin-bottom: 10px;
+    display: block;min-width: 610px;
+    margin-left: auto;margin-right: auto;
+}
+/******//*****//********//******/
+#ASKpost
+{
+    margin-bottom: 8px;
+}
+#ASKpost form, #ASKreply form
+{
+    background-color: rgba(40,40,40,.85);
+    border: 1px solid rgba(255,255,255,.7);
+    width: 590px; min-height: 50px;
+    margin-left: auto;margin-right: auto; 
+}
+#askptittag
+{
+    color: white; font-family: 'Open Sans', sans-serif;
+    background-color: rgba(40,40,40,.4); width: 560px;
+    border: 1px solid rgba(255,255,255,.3);
+}
+#ASKpost form textarea , #ASKreply form textarea
+{
+    color: white;font-family: 'Open Sans', sans-serif;
+    background-color: rgba(40,40,40,.4);
+    border: 1px solid rgba(255,255,255,.3);
+    width: 560px; min-height:60px;max-height:280px;
+    resize:none;overflow:auto;
+    padding: 2px 5px 2px 5px;
+}
+.askpbut , .askrbut
+{
+    background-color: rgba(50,160,50,1);
+    border: 1px solid rgba(220,220,220,.9);
+    color: white; padding: 3px 11px;
+    font-size: 11pt;
+}
+.askpbut:hover
+{
+    background-color: rgba(50,180,50,1);
+}
+#ASKpost form #titleaskp, #ASKreply form #titleaskr
+{
+    margin:5px 15px;
+    text-align: left;width: 500px;left: 15px;
+}
+#ASKpost form #butright , #ASKreply form #butrightr
+{
+    margin: 7px 15px;
+    text-align: right;width: 560px; right: 15px;
+}
+#ASKpost form #butright .askrbut:hover , #ASKreply form #butrightr .askrbut:hover
+{
+    background-color: rgba(50,180,50,1);
+}
+/***********//***********//************//***********/
+#titleaskpaskp
+{
+    display: block; width: 578px;padding: 1px 4px;
+    background-color: rgba(40,40,40,.85);
+    margin:2px auto; text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,.85);
+    border-left: 4px solid rgba(255,255,255,.85);
+}
+#footaskpaskp
+{
+    display: block; width: 578px;padding: 1px 4px;
+    background-color: rgba(40,40,40,.85);
+    margin:2px auto; text-align: center;
+    text-decoration: none; font-size: 10pt;
+    border-bottom: 1px solid rgba(255,255,255,.85);
+    border-left: 4px solid rgba(255,255,255,.85);
+}
+#footaskpaskp:hover
+{
+    display: block; padding: 1px 4px;text-decoration: none;
+    background-color: rgba(40,40,40,.95);
+}
+
+#footaskpaskp a {display: block;padding: 1px 4px;}
+#footaskpaskp a:hover {text-decoration: none; font-weight: bolder;}
+
+#askpask
+{
+    margin: 0px auto; display: block; width: 578px;
+    border-left: 4px solid rgba(255,255,255,.85);
+    border-bottom: 1px solid rgba(255,255,255,.85);
+    text-align: left; padding: 4px 4px;
+    background-color: rgba(40,40,40,.8);
+}
+#askpaskti
+{
+    font-size: 11pt;text-align: left;overflow: hidden;
+    padding-left: 4px;margin-right: 7px;
+}
+#askpaskti a
+{
+    text-decoration: none;
+}
+#askpasktf
+{
+    font-size: 7.5pt;text-align: right;
+    color: rgba(255,255,255,.5);margin-bottom: -3px;
+}
+#askpaskbackgr
+{
+    line-height: 2px;
+    margin: 0px auto; display: block; width: 590px;
+}
+/***********//***********//************//***********//****    s   e   e    ***//*****/
+#ASKseepost
+{
+    margin-bottom: 8px;
+}
+#ASKseepost form
+{
+    background-color: rgba(40,40,40,.85);
+    border: 1px solid rgba(255,255,255,.7);
+    width: 590px;padding: 3px 0px;padding-top: 8px;
+    margin-left: auto;margin-right: auto;
+}
+#askpseeauthor
+{
+    font-size:8pt;text-align:left;margin-left: 15px;
+}
+#askpseeauthor a
+{
+    color: rgba(255,255,255,.5);
+}
+#askpseeauthor a:hover
+{
+    color: rgba(255,255,255,.8); text-decoration: none;
+}
+#askpseetd
+{
+    font-size: 7.5pt;text-align: right;
+    color: rgba(255,255,255,.5);margin-right: 15px;float: right;
+}
+.askpseeteb
+{
+    resize:none; overflow: auto;margin-bottom: 3px;
+}
+#askpseetitle
+{
+    font-size: 14pt;text-align: center;font-weight: 600;
+    color: rgba(255,255,255,1);margin: 5px 8px 2px 8px;
+}
+#askpseebody
+{
+    width: 570px;margin-left: auto;margin-right: auto;
+}
+#askpseebody pre
+{
+    font-size: 11pt;text-align: justify;
+    color: rgba(255,255,255,1);padding: 2px 5px;
+}
+/***************//**********//*******//***  r e p l y  ***/
+#ASKreply { margin-bottom: 8px; }
+#titleaskraskr
+{
+    display: block; width: 590px; background-color: rgba(40,40,40,.85);
+    margin:2px auto; text-align: center; margin-bottom:3px;
+    border: 1px solid rgba(255,255,255,.85);
+}
+#askrask
+{
+    margin: auto auto; display: block; width: 590px;margin-bottom: 2px;
+    border: 1px solid rgba(255,255,255,.7);background-color: rgba(40,40,40,.8);
+    text-align: left; position:relative;
+}
+#askraskBlock
+{
+    margin-left: 40px;margin-right: 14px;
+    width: 542px;overflow: hidden;display: block;
+    top:20%;bottom: 20%;
+}
+#askraskre pre
+{
+    font-size: 10.5pt;text-align: justify; color: rgba(255,255,255,1);
+}
+
+#askrasktdnl { font-size: 7.5pt;text-align: left; padding-bottom: 1px;float: left;}
+#askrasktdnl a { color: rgba(255,255,255,.5);}
+#askrasktdnl a:hover { color: rgba(255,255,255,.7); text-decoration: none;}
+
+#askrasktdnr
+{
+    font-size: 7.5pt;text-align: right; color: rgba(255,255,255,.5);float: right;
+}
+
+#askraskBlockVote
+{
+    margin-left: -1px;float: left; top: -1px; bottom: -1px;position: absolute;
+}
+
+.votepad {display: block;width: 38px;text-align: center; overflow: hidden;float: left;}
+.votepad a { display: block;font-size: 7pt;color: rgba(255,255,255,.3); }
+.votepad a:hover { text-decoration: none; }
+
+#voteup { display: block;padding: 2px 0px; }
+#voteup:hover,.vtu:hover { background-color: rgb(40,160,40); color: white; }
+#votedown { display: block;padding: 2px 0px; }
+#votedown:hover,.vtd:hover { background-color: rgb(180,40,40); color: white; }
+.vtu { background-color: rgba(40,160,40,.25); }
+.vtd { background-color: rgba(180,40,40,.25); }
+
+/**************************************************************************************/
+/*************************************************************************************/
+/********************************************************** u n i v e r s a l *******/
+/***********************************************************************************/
+#login fieldset
+{
+    background-color: rgba(40,40,40,.85);
+    border: 1px solid rgba(255,255,255,.7);
+    padding-top: 3px;padding-bottom: 5px;
+}
+#login fieldset.space
+{
+    width: 290px;display: block;background-color: rgba(40,40,40,.85);
+    margin-left: auto;margin-right: auto;margin-top: 150px;
+}
+#login fieldset.space h2 { padding: 3px 0px; }
+#login fieldset.space h3 { padding: 3px 0px; }
+#logbut { padding: 8px 97px;margin: 12px 0px 2px 0px; }
+#logregis { margin: 7px 0px 2px 0px; }
+.footer
+{
+    background-color: rgba(20,20,20,1);
+    border-top: 1px rgba(255,255,255,.8) solid;
+    width: 100%;font-size: 8pt;padding: 5px 0px;
+    position:absolute;bottom: 0px;
+}
+/************************************************************************************/
+/********************************************************   t o k e n   ************/
+#tokform fieldset
+{
+    background-color: rgba(40,40,40,.85);
+    border: 1px solid rgba(255,255,255,.7);
+    padding-top: 5px;padding-bottom: 5px;
+}
+#tokform fieldset.spaceplus
+{
+    width: 380px;display: block;margin-top: 10px;
+    margin-left: auto;margin-right: auto;
+}
+#tokform fieldset.spaceplus h3 { padding-top: 8px; }
+#tokform fieldset.spaceplus fieldset#gendff
+{
+    width:160px;display: block;margin-top: 15px; margin-left: auto;margin-right: auto;
+}
+#tokformbut { padding: 8px 124px;margin: 7px 0px 18px 0px; }
+/**********************/
+#tok { margin-top: 70px; }
+#marginstart { margin-top: 70px; }
+#paddstart { padding-top: 70px;}
+/************************/
+.button { padding: 8px 65px;border: none; background-color: rgba(50,160,50,1); }
+.button:hover { background-color: rgba(50,180,50,1); font-weight: bold; }
+.backbut
+{
+    font-family: 'Open Sans', sans-serif; color: white; background-color: rgba(40,40,40,1);
+    padding: 5px 10px; font-size: 10pt; border: 1px solid rgba(220,220,220,.9);
+}
+.backbut:hover { background-color: rgba(40,40,40,.85); }
+
+/****************************************************************************************************************/
+/********************************************************************************************************/
+/****************************************************************************************************************/
+/********************************************************************************************************/
+/*********************************************************************  g  r  o  u   p  s  *******/
+.groupcc { margin-left: 5px;margin-right: 5px; }
+.grouplayout { width: 950px;margin: 77px auto 0px auto; }
+#lgroup { width:285px;display: inline-block;position:relative; float: left;clear: both; }
+#rgroup { width: 660px;display: block;position: relative;float: right;}
+#rgroup h6 { font-size: 7.5pt;font-weight: 300;}
+/*************/
+.rgpanel
+{
+    background-color: rgba(40,40,40,.85);margin-left: 0px;
+    border: 1px solid rgba(255,255,255,.7); margin-bottom:5px;
+}
+.rgpanel div { padding: 8px; }
+.rgpanel h3 { color: rgba(255,255,255,.7); font-size: 12pt; font-weight: 550; }
+.rgpanel h4 { color: rgba(255,255,255,.7); font-size: 10pt; font-weight: 400; }
+/*********//***********//**********//*********//***********//**********//*********/
+.abaspace { position:relative;/*display: block;*/margin-bottom: 155px; }
+.abag { float: left; margin-top: 2px; padding-top: 2px;} 
+.abag [type=radio] { display: none; }
+.abag label
+{
+    padding: 3px 8px 5px 8px;position: relative;color: rgba(255,255,255,.7);
+    background-color: rgba(40,40,40,.8);border: 1px solid rgba(255,255,255,.7); 
+    font-size: 11pt;margin-top: 21px;
+}
+[type=radio]:checked~label
+{
+    background-color: rgba(43,40,38,1); border: 1px solid rgba(255,255,255,.7); 
+    z-index: 2;border-bottom: none;color: white;
+}
+.abatext,.abatext2
+{
+    position: absolute;overflow: hidden;display: table;
+    left: 0px;right: 0px;bottom: 0px;top: 28px;
+    background-color: rgba(43,40,38,1);width: 660px;
+    border: 1px solid rgba(255,255,255,.7);min-height:120px;
+}
+.abatext p { padding: 5px 8px 5px 8px; }
+[type=radio]:checked~label~.abatext { z-index: 1; }
+#ggblock { display: table-cell;vertical-align: middle; }
+/****************//**************//**************//***/
+.abauno form textarea,.abados form textarea
+{
+    color: white;font-family: 'Open Sans', sans-serif;padding: 2px 5px 2px 5px;
+    background-color: rgba(48,48,48,1);border: 1px solid rgba(255,255,255,.3);
+    width: 636px;min-height:74px;max-height:280px;border-radius: .22em;
+    resize:none;overflow:auto;margin-top:10px;margin-bottom: 5px;
+}
+#gbutsay,#gbutask { width:636px;position: relative; margin: 0px auto 5px auto;text-align: right; }
+.gsaybut,.gaskbut,.gupfbut
+{
+    background-color: rgba(50,160,50,1);
+    border: 1px solid rgba(220,220,220,.9);right: 10px;
+    color: white;font-size: 11pt;padding: 4px 9px;
+}
+.gsaybut:hover,.gaskbut:hover,.gupfbut:hover {background-color:rgba(50,180,50,1);border-color:black;}
+input[type=file]
+{
+    background-color: rgba(60,60,60,1);border: 1px solid rgba(220,220,220,.3);
+    color: rgba(220,220,220,.6);padding: 4px 6px;margin-bottom: 4px;border-radius: .25em;
+}
+input[type=file]::-webkit-file-upload-button { visibility: hidden; width: 74px; }
+input[type=file]::before { content:'Choose File: ';font-size: 10pt;text-align: center; }
+input[type=file]:hover { border-color: black; }
+#gupf { font-weight: 300;color:rgba(255,255,255,.6);margin-bottom:2px;}
+#gupf input
+{
+    background-color:rgba(55,55,55,1);color:rgba(255,255,255,.7);
+    text-align:center;border:1px solid rgba(255,255,255,.2);
+}
+.g-perm
+{
+    margin: 30px auto 20px auto;display: table;
+}
+.g-perm h4
+{
+    vertical-align: middle;color: white; padding: 10px 15px;
+    background-color: rgba(50,190,50,.7);border-radius: .6em;
+    border: 1px solid rgba(255,255,255,.7);
+}
+.g-perm h4:hover {background-color: rgba(50,180,50,.85);border: 1px solid rgba(255,255,255,.9);text-decoration: none;}
+
+#rgfeed 
+{ 
+    width: 660px;background-color: blue;float: right;clear: both;
+    display: block;position: relative;
+}
+
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+
+
+
+
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************************************/
+/*************************************************************************************/
+/************************************************************************************/
+/*
+div::before {
+    content: "PHP";
+   }
+span.foco {
+    color: #7e050c;
+}  text-shadow: 1px 1px #fff;
+box-shadow: inset .25em .25em .25em rgba(255,255,255, .5), inset -.1em -.1em .1em rgba(0,0,0, 0.1);
+
+
+@media(max-width: 480px){
+    .jSlider .indicator span 
+    {
+        width: 5px;height: 5px;margin-left: 5px;
+    }
+                        }
